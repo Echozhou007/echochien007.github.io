@@ -6,7 +6,7 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://echozhou007.github.io/echochien007.github.io">
-  <title>Category: 后端 | Echo Chien</title>
+  <title>JQ-DataTables无数据渲染时报错 | Echo Chien</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" href="//at.alicdn.com/t/font_1540387_g0qgy2zn8gu.css">
   <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
@@ -24,15 +24,18 @@
         border-left-color: #3299cc;    /*左边框颜色*/
     }
   </style>
-  <meta name="description" content="一个即将步入前端大门的小菜鸡">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Echo Chien">
-<meta property="og:url" content="https://echozhou007.github.io/echochien007.github.io/categories/%E5%90%8E%E7%AB%AF/index.html">
+  <meta name="description" content="报错信息为：  ‘Cannot set property &#39;_DT_CellIndex&#39; of undefined’ 报错原因是：   DataTables不支持在tbody里添加colspan或者rowspan 解决方案： 直接使用一个空的tbody标签即可，DataTables会自动显示无数据信息">
+<meta property="og:type" content="article">
+<meta property="og:title" content="JQ-DataTables无数据渲染时报错">
+<meta property="og:url" content="https://echozhou007.github.io/echochien007.github.io/2020/04/06/DataTables%E6%97%A0%E6%95%B0%E6%8D%AE%E6%B8%B2%E6%9F%93%E6%97%B6%E6%8A%A5%E9%94%99/index.html">
 <meta property="og:site_name" content="Echo Chien">
-<meta property="og:description" content="一个即将步入前端大门的小菜鸡">
+<meta property="og:description" content="报错信息为：  ‘Cannot set property &#39;_DT_CellIndex&#39; of undefined’ 报错原因是：   DataTables不支持在tbody里添加colspan或者rowspan 解决方案： 直接使用一个空的tbody标签即可，DataTables会自动显示无数据信息">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-04-06T03:05:47.000Z">
+<meta property="article:modified_time" content="2020-10-08T07:40:40.371Z">
 <meta property="article:author" content="Echo Chien">
-<meta property="article:tag" content="前端小菜鸡">
+<meta property="article:tag" content="JQ">
+<meta property="article:tag" content="DataTables">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="Echo Chien" type="application/atom+xml">
@@ -181,60 +184,162 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-DataTables无数据渲染时报错" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/echochien007.github.io/archives/2020" class="archive-year">2020</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/echochien007.github.io/2020/10/06/hello-world/" class="archive-article-date">
-  	<time datetime="2020-10-06T01:14:35.196Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-10-06</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/echochien007.github.io/2020/10/06/hello-world/">Hello World</a>
+    <h1 class="article-title" itemprop="name">
+      JQ-DataTables无数据渲染时报错
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
+        
+        <a href="/echochien007.github.io/2020/04/06/DataTables%E6%97%A0%E6%95%B0%E6%8D%AE%E6%B8%B2%E6%9F%93%E6%97%B6%E6%8A%A5%E9%94%99/" class="archive-article-date">
+  	<time datetime="2020-04-06T03:05:47.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-04-06</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>报错信息为：  <code>‘Cannot set property &#39;_DT_CellIndex&#39; of undefined’</code></p>
+<p>报错原因是：  </p>
+<p><code>DataTables</code>不支持在tbody里添加<code>colspan</code>或者<code>rowspan</code></p>
+<p>解决方案：</p>
+<p>直接使用一个空的<code>tbody</code>标签即可，<code>DataTables</code>会自动显示无数据信息</p>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>Trick Or Treat<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/echochien007.github.io/img/wechat.jpg">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/echochien007.github.io/img/wechat.jpg">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">JQ</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">DataTables</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
 	<div class="article-category tagcloud">
 		<i class="icon-book icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="/echochien007.github.io/categories/后端//" class="article-tag-list-link color3">后端</a>
+        			<a href="/echochien007.github.io/categories/web前端//" class="article-tag-list-link color1">web前端</a>
         		</li>
       		
 		</ul>
 	</div>
 
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+    <a href="/echochien007.github.io/2020/10/06/hello-hexo/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          Hello Hexo
+        
+      </div>
+    </a>
   
   
-    </div></section>
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    目录，不存在的…
+                    </div>
+                </span>
+            </div>
+        </div>
+        
+    </div>
+</aside>
+
+
+
+  
+  
   
 
-    
+  
+
+  
+
+  
 
 
           </div>
@@ -254,10 +359,10 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
-		isCategory: true,
+		isCategory: false,
 		open_in_new: false,
 		toc_hide_index: true,
 		root: "/echochien007.github.io/",
